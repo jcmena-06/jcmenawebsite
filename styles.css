@@ -74,10 +74,12 @@ hr{
 }
 
 .main-image{
-    width: 100%;
+    width: 50%;
     height: 550px;
-    background: url('./img/semi_opened.jpg') no-repeat center center/cover; 
-    padding: 50px;
+    background: url('./img/jcmm_pic.png') no-repeat center center/cover; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
