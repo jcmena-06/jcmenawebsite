@@ -39,8 +39,12 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.cover-container {
+.cover-container1 {
   max-width: 42em;
+}
+
+.cover-container {
+  max-width: 100em;
 }
 
 
@@ -113,3 +117,44 @@ body {
 .card-text{
     font-size: 11px;
 }
+
+.resume-inaoe{
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.resume-cenidet{
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.resume-ineel{
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-page{
+  margin: 20px 20px 100px 20px;
+}
+
+.presentation{
+  margin: 150px 20px 0px 20px;
+}
+
+.info-text{
+  margin: 10px 0px 50px 0px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+

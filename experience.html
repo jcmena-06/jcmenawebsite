@@ -1,72 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="generator" content="Jekyll v4.0.1">
-    <title>JCMM Website</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
-
-    <!-- Bootstrap core CSS -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--Custom CSS-->
     <link href="styles.css" rel="stylesheet">
-  </head>
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">My Experience</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="index.html">Home</a>
-        <a class="nav-link" href="experience.html">My Experience</a>
-      </nav>
-    </div>
-  </header>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a4b1de2d6d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 
-  <main role="main" class="inner cover">
-    
-    <div class="card mb-3" style="max-width: 650px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/jcmm_pic.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">José Carlos</h5>
-              <p class="card-text">I have 5 years of experience, I have collaborated
-                  not only as Business Analyst but also as Software Developer and Tester. You could check my experience, my skills and my hobbies in the My Experience page.</p>
-              <p class="card-text"><small class="text-muted">Developer/Tester</small></p>
+    <title>Prueba</title>
+</head>
+<body>
+    <div class="container">
+            <div class="row nav-page">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="experience.html">Experience</a>
+                        </li>
+                      </ul>
+                </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4" style="border:1px solid #000;">
+                    <p>INEEL (March 2018 to December 2019)</p>
+                    <p>Instituto Nacional de Electricidad y Energías Limpias</p>
             </div>
-          </div>
+            <div class="col-sm-6 col-md-6 col-lg-7 col-xl-8" style="border:1px solid #000;">
+                    <p style="text-align: justify;">I automated test cases using Selenium+Java+TestNG, besides, I developed a web interface
+                        and I collaborated as DBA in PL/SQL
+                    </p>
+            </div>
         </div>
-      </div>
-  </main>
-
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>JCMM Website </p>
-    </div>
-  </footer>
-</div>
+        <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4" style="border:1px solid #000;">
+                    <p>CENIDET (January 2016 to December 2017)</p>
+                    <p>Centro Nacional de Investigación y Desarrollo Tecnológico</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-7 col-xl-8" style="border:1px solid #000;">
+                        <p style="text-align: justify;">I studied Master of Science in Computer Science with the speciality in Software
+                            Engineering.
+                        </p>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4" style="border:1px solid #000;">
+                        <p>University of Medellin, Colombia (1st October 2017 to 30th November 2017)</p>
+                        <p>Research Stay</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-7 col-xl-8" style="border:1px solid #000;">
+                        <p style="text-align: justify;">I learned the systematic review method in order to get more information
+                                on my research. Besides, I research some quality metrics to compare the maturity between
+                                traditional software proces and agile process. 
+                                I was an evaluator of science projects.
+                            </p>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4" style="border:1px solid #000;">
+                        <p>INAOE (June 2012 to December 2015)</p>
+                        <p>Instituto Nacional de Astrofísica Óptica y Electrónica</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-7 col-xl-8" style="border:1px solid #000;">
+                        <p style="text-align: justify;">I analyzed, specified and designed for two projects, the first one was
+                            for the Flight Simulator project for CASA C-295M, the last one was for HUF company.
+                            Besides, I used Testlink tool to manage test cases, I developed a Qt C++ interface.
+                            Another activity, I was a trainer of the Scrum Framework.
+                        </p>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4" style="border:1px solid #000;">
+                        <p>Skills</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-7 col-xl-8" style="border:1px solid #000;">
+                        <p>
+                                <h5>MoProSoft, UML, Selenium, Cucumber, TestNG, Testlink, MantisBT
+                                    Visual Paradig for UML, Design Patterns, Enterprise Architect,
+                                    Scrum, LyX, Gitoriuous/Git/Bitbucket, BlueJ, Eclipse, Intellij IDEA,
+                                    Toad, PL/SQL, PostgreSQL, GNU/Linux, MacOS.    
+                                </h5>
+                                
+                               
+                                
+                        </p>
+                </div>
+        </div>
+    </div><!--Fin container-->
+    
 </body>
 </html>
